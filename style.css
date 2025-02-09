@@ -16,9 +16,17 @@
     --main-size-media-icon: 1.6rem;
 }
 
+
+
 body{
     background-color: var(--bg-color);
 }
+
+/*
+------------------------------------------- 
+HEADER 
+-------------------------------------------
+*/
 
 nav{
     display: flex;
@@ -28,7 +36,7 @@ nav{
 }
 
 
-.logo-nav img{
+.logo-nav{
     max-width: var(--main-size);
     max-height: var(--main-size);
 
@@ -47,7 +55,7 @@ nav{
     padding: 4px 7px 4px 7px;
     cursor: pointer;
     
-    color: white;
+    color: var(--main-text-color);
     font-size: 14px;
     font-weight: 700;
     text-align: center;
@@ -59,6 +67,8 @@ nav{
     font-size: 14px;
     color: var(--main-text-color);
     text-decoration: none;
+
+    transition: 0.2s ease;
 }
 .github-btn:hover, .linkedin-btn:hover{
     color: var(--main-color);
@@ -73,6 +83,7 @@ nav{
     color: var(--main-text-color);
     font-size: 14px;
     text-decoration: none;
+    text-align: center;
 
     transition: 0.4s ease;
 }
@@ -81,4 +92,58 @@ nav{
     transform: translateY(-4px) translateX(-4px);
     
     
+}
+
+/* 
+-------------------------------------------
+FOOTER
+-------------------------------------------
+*/
+
+footer{
+    
+}
+
+.social-links{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    left: 7rem;
+
+    text-decoration: none;
+}
+
+.social-link-footer{
+    max-width: var(--main-size-media-icon);
+    max-height: var(--main-size-media-icon);
+    
+    transition: 0.4s ease;
+}
+.social-link-footer:hover{
+    transform: translateX(5px);
+}
+
+.line-links{
+    width: 1px;
+    height: 7rem;
+    flex-grow: 1;
+    background-color: var(--main-text-color);
+    
+}
+
+.credit{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: var(--main-text-color);
+}
+
+.credit img{
+    max-width: var(--main-size-media-icon);
+    max-height: var(--main-size-media-icon);
+
 }
