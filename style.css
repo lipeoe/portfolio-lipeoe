@@ -12,6 +12,7 @@
     --secondary-color: #1a2e18;
     --bg-color: #0d120d;
     --main-text-color: #e6ffe9 ;
+    --secondary-text-color: #b4c2b6;
     --main-size: 4rem;
     --main-size-media-icon: 1.6rem;
 }
@@ -20,6 +21,7 @@
 
 body{
     background-color: var(--bg-color);
+    
 }
 
 /*
@@ -99,8 +101,88 @@ MAIN
 -------------------------------------------
 */
 
+#about-me-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 6rem 0 3rem 0
+}
+
+.about-wrapper{
+    margin: 0rem 0 3rem 0;
+}
+
+.about-me1{
+    color: var(--main-color);
+}
+
+.about-me-name{
+    color: var(--main-text-color);
+    font-size: 4rem;
+}
+
+.about-me-stack{
+    color: var(--secondary-text-color);
+    font-size: 3rem;
+}
+
+.about-me-description{
+    color: var(--main-text-color);
+    width: 600px;
+}
 
 
+.skills-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem 2rem;
+
+    border: solid 3px var(--secondary-color);
+    border-radius: 10px;
+
+}
+
+.title-skills{
+    font-size: 1.2rem;
+    color: var(--main-color);
+    
+}
+
+.skills-list{
+    display: flex;
+    gap: 2rem;
+    font-size: 1rem;
+    list-style: none;
+
+    color: var(--main-text-color);
+}
+
+.skills-list li{
+    text-align: center;
+    padding: 5px 12px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+/* 
+-------------------------------------------
+PROJECTS SECTION
+-------------------------------------------
+*/
+
+
+
+
+
+
+
+
+/* 
+-------------------------------------------
+CONTACT SECTION
+-------------------------------------------
+*/
 #contact-content{
     display: flex;
     flex-direction: column;
@@ -187,6 +269,7 @@ footer{
     flex-direction: column;
     gap: 20px;
     color: var(--main-text-color);
+    margin: 0 0 2rem 0
 }
 
 .credit img{
