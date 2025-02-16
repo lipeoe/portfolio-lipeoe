@@ -172,7 +172,6 @@ PROJECTS SECTION
 
 
 #projects-content{
-
     margin: 5rem 0;
 }
 
@@ -184,37 +183,50 @@ PROJECTS SECTION
     text-align: center;
 }
 
-.projects-wrapper {
+.project-card{
     display: flex;
     justify-content: center;
+}
+
+.project-wrapper{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    text-align: end;
+    align-items: center;
+    position: relative;
+    color: var();
+}
+
+.img-project{
+    
+    object-fit: cover;
+    object-position: top;
+    width: 700px;
+    max-height: 300px;
+}
+
+
+.project-details{
+    position: absolute;
+    max-width: 400px;
+    right: -100px;
+    top: 10px;
+    z-index: 1;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.project-title{
+    color: var(--main-color);
+    text-decoration: underline;
+}
+
+.project-description{
     color: var(--main-text-color);
+    font-size: 14px;
 }
-
-.project-section{
-    margin-top: 5rem;
-}
-
-.project-card {
-    width: 300px;
-    height: 240px;
-    background-color: var(--main-color);
-    padding: 20px; 
-    border-radius: 10px; 
-
-}
-
-
-.project-title {
-    font-size: 1.5em; 
-    margin-bottom: 10px; 
-}
-
-.project-description {
-    font-size: 1em; 
-    color: var(--secondary-text-color); 
-}
-
-
 
 /* 
 -------------------------------------------
