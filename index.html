@@ -15,8 +15,9 @@
         <nav>
             <img class="logo-nav" src="/assets/images/logo.png" alt="Lipeoe Logo">
             <div class="group-buttons">
-                <a class="github-btn" href="https://github.com/lipeoe" target="_blank" rel="noopener noreferrer">GitHub</a>
-                <a class="linkedin-btn" href="https://www.linkedin.com/in/felipeosantosojo/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                <button class="section-btn"><span>01. </span>Sobre</button>
+                <button class="section-btn"><span>02. </span>Projetos</button>
+                <button class="section-btn"><span>03. </span>Contato</button>
                 <a class="resume-btn" href="/assets/documents/FelipeOjo_cv.docx.pdf" target="_blank" rel="noopener noreferrer">CURRÍCULO</a>
                 <button class="language">PT</button>
             </div>
@@ -25,35 +26,24 @@
     <main>
         <section id="about-me-content">
             <div class="about-wrapper">
-                <p class="about-me1">Olá! Meu nome é</p>
-                <h1 class="about-me-name">Felipe.</h1>
-                <h2 class="about-me-stack">Sou desenvolvedor Full Stack.</h2>
+                <h1 class="about-me-name">Felipe Ojo.</h1>
+                <h2 class="about-me-stack">Desenvolvedor Full Stack.</h2>
                 <p class="about-me-description">Atualmente estou cursando Análise e Desenvolvimento de Sistemas e criando alguns pequenos projetos para aprimorar minhas habilidades!</p>
             </div>
             <div class="skills-wrapper">
-                <h2 class="title-skills">Tecnologias</h2>
-                <div class="skills-list-wrapper">
-                    <ul class="skills-list">
-                        <li>Java</li>
-                        <li>Spring</li>
-                        <li>JavaScript</li>
-                        <li>React</li>
-                        <li>Node</li>
-                        <li>MySQL</li>
-                        <li>TypeScript</li>
-                    </ul>
-                </div>
-                <div class="skills-list-wrapper">
-                    <ul class="skills-list">
-                        <li>Teste de Software</li>
-                        <li>Design Responsivo</li>
-                        <li>UI/UX</li>
-                        <li>CI/CD</li>
-                        <li>Git</li>
-                        <li>Docker</li>
-                    </ul>
-                </div>
-            </div>
+                <h2>Habilidades</h2>
+                <ul class="skills-content">
+                    <li><img class="skills-icons" src="/assets/icons/java.png" alt="Java">Java</li>
+                    <li><img class="skills-icons" src="/assets/icons/react.png" alt="React">React</li>
+                    <li><img class="skills-icons" src="/assets/icons/css-3.png" alt="CSS">CSS</li>
+                    <li><img class="skills-icons" src="/assets/icons/html.png" alt="HTML">HTML</li>
+                    <li><img class="skills-icons" src="/assets/icons/javascript.png" alt="Node">JavaScript</li>
+                    <li><img class="skills-icons" src="/assets/icons/typescript.png" alt="TypeScript">TypeScript</li>
+                    <li><img class="skills-icons" src="/assets/icons/node.png" alt="Node">Node.js</li>
+                    <li><img class="skills-icons" src="/assets/icons/git.png" alt="Git">Git</li>
+                    <li><img class="skills-icons" src="/assets/icons/mysql.png" alt="MySQL">MySQL</li>
+                </ul>
+            </div>  
         </section>
         <section id="projects-content">
             <h1 class="title-section">Projetos</h1>
@@ -62,15 +52,29 @@
                         <img class="img-project" src="/assets/projects/CulturaHub/CulturaHubHome.png" alt="CulturaHub">
                         <div class="project-details">
                             <h1 class="project-title">CulturaHub</h1>
-                            <p class="project-description">Plataforma Web voltada para a divulgação de eventos culturais! Nele os usuários podem encontrar eventos com os mais variados filtros, salvar eventos ou criar o seu próprio. </p>
+                            <p class="project-description">Plataforma Web voltada para a divulgação de eventos culturais. Conta com operações CRUD para login e cadastro, eventos, gestão de cargos administrativos e usuários.</p>
+                            <div class="project-link-wrapper">
+                                <a class="project-link" href="https://culturahub.netlify.app/" target="_blank" rel="noopener noreferrer"><img class="project-link-img" src="/assets/images/link.png" alt="CulturaHub"></a>
+                                <a class="project-link" href="https://github.com/2024-2-NADS2/Projeto2" target="_blank" rel="noopener noreferrer"><img class="project-link-img" src="/assets/images/github.png" alt="GitHub"></a>
+                                <a class="project-link" href="https://drive.google.com/drive/folders/184OtHY8Fg6XPJ_QaFFmNbsJOI4y3-4n1?usp=drive_link" target="_blank" rel="noopener noreferrer"><img class="project-link-img" src="/assets/images/picture.png" alt="Picture"></a>
+                            </div>
                         </div>
-                        
+                        <ul class="project-data">
+                            <li class="list-itens-project">React</li>
+                            <li class="list-itens-project">ViaCEP API</li>
+                            <li class="list-itens-project">Express</li>
+                            <li class="list-itens-project">Imgur API</li>
+                            <li class="list-itens-project">Node.js</li>
+                            <li class="list-itens-project">MySQL</li>
+                            <li class="list-itens-project">Styled Components</li>   
+                        </ul>
+                    </div>
                     </div>
                 </div>
         </section>
         <section id="contact-content">
             <h1 class="title-contact">Vamos conversar?</h1>
-            <p class="description-contact">Meu perfil está aberto para novas oportunidades! Caso tenha interesse, entre e contato comigo. Retornarei o mais breve possível!</p>
+            <p class="description-contact">Estou aberto para novas oportunidades! Caso tenha interesse, entre e contato comigo. Retornarei o mais breve possível!</p>
             <a class="btn-contact" href="mailto:felipeosantosojo@gmail.com" target="_blank" rel="noopener noreferrer">Deixe uma mensagem!</a>
         </section>
     </main>
@@ -86,7 +90,7 @@
         </div>
         <div class="credit">
             <img src="/assets/images/logo.png" alt="Lipeoe Logo">
-            <span>Projetado e construído por Felipe Ojo</span>
+            <span>Felipe Ojo ©</span>
         </div>
     </footer>
 

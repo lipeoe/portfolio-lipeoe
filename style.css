@@ -15,6 +15,7 @@
     --secondary-text-color: #b4c2b6;
     --main-size: 4rem;
     --main-size-media-icon: 1.6rem;
+    --main-icon-size: 1.2rem;
 }
 
 
@@ -64,14 +65,16 @@ nav{
     
 }
 
-.github-btn, .linkedin-btn{
+.section-btn{
     font-size: 14px;
     color: var(--main-text-color);
+    background-color: transparent;
+    border: none;
     text-decoration: none;
 
     transition: 0.2s ease;
 }
-.github-btn:hover, .linkedin-btn:hover{
+.section-btn:hover{
     color: var(--main-color);
 }
 
@@ -85,6 +88,7 @@ nav{
     font-size: 14px;
     text-decoration: none;
     text-align: center;
+    background-color: transparent;
 
     transition: 0.4s ease;
 }
@@ -130,39 +134,52 @@ MAIN
     width: 600px;
 }
 
-
 .skills-wrapper{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    gap: 1rem;
-    padding: 2rem 2rem;
+    text-align: center;
+}
 
-    border: solid 3px var(--secondary-color);
-    border-radius: 10px;
+.skills-wrapper h2{
+    margin: 2rem;
+    font-size: 3rem;
+    color: var(--main-text-color);
 
 }
 
-.title-skills{
-    font-size: 1.2rem;
-    color: var(--main-color);
-    
-}
-
-.skills-list{
-    display: flex;
-    gap: 2rem;
-    font-size: 1rem;
+.skills-content{
     list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.8rem;
 
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.skills-content li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    padding: 0.6rem 1.3rem;
+
+    border: solid 2px var(--secondary-color);
+    border-radius: 50px;
     color: var(--main-text-color);
 }
 
-.skills-list li{
+.skills-icons{
+    width: var(--main-size-media-icon);
+    list-style: none;
+    
     text-align: center;
-    padding: 5px 12px;
-    background-color: var(--secondary-color);
-    border-radius: 10px;
 }
+
+
 
 /* 
 -------------------------------------------
@@ -172,7 +189,7 @@ PROJECTS SECTION
 
 
 #projects-content{
-    margin: 5rem 0;
+    margin: 10rem 0;
 }
 
 .title-section{
@@ -195,7 +212,7 @@ PROJECTS SECTION
     text-align: end;
     align-items: center;
     position: relative;
-    color: var();
+
 }
 
 .img-project{
@@ -204,19 +221,24 @@ PROJECTS SECTION
     object-position: top;
     width: 700px;
     max-height: 300px;
+    border-radius: 10px;
 }
 
 
 .project-details{
     position: absolute;
     max-width: 400px;
-    right: -100px;
-    top: 10px;
+    bottom: -100px;
+    right: 10px;
+    
     z-index: 1;
     background-color: var(--secondary-color);
     border-radius: 5px;
-    padding: 16px;
+    padding: 12px;
+    text-align: center;
 }
+
+
 
 .project-title{
     color: var(--main-color);
@@ -226,6 +248,46 @@ PROJECTS SECTION
 .project-description{
     color: var(--main-text-color);
     font-size: 14px;
+    margin-bottom: 20px;
+    
+}
+
+.project-link-wrapper{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    
+}
+
+.project-link-img{  
+    max-width: 22px;  
+
+    transition: 0.3s ease;
+}
+
+.project-link-img:hover{
+    transform: translateY(-3px);
+}
+
+.project-data{
+    position: absolute;
+    bottom: -100px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.list-itens-project{
+    width: 40%;
+    box-sizing: border-box;
+    text-align: start;
+
+    color: var(--main-text-color);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--main-color);  
+
 }
 
 /* 
