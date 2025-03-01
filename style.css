@@ -444,8 +444,19 @@ MEDIA QUERIES
 }
 
 @media(max-width: 800px){
+    nav{
+        justify-content: space-between;
+        padding: 1.6rem;
+    }
+
+    .logo-nav{
+        max-width: 2rem;
+        max-height: 2rem;
+    }
+
     .hamburger-menu{
         display: block;
+        font-size: 1.5rem;
         
     }
 
@@ -562,6 +573,16 @@ MEDIA QUERIES
         text-align: center; 
         margin-bottom: 10px; 
     }
-    
+
+    #contact-content{
+        padding: 1em;
+    }
+
+    .title-contact{
+        font-size: 2em;
+    }
+    .description-contact{
+        font-size: 0.7em;
+    }
 }
 
