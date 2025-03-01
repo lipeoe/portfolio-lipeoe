@@ -42,3 +42,21 @@ document.addEventListener("DOMContentLoaded", () => {
         })
     })
 })
+
+document.addEventListener("DOMContentLoaded", () =>{
+    const buttons = document.querySelectorAll(".section-btn")
+
+    buttons.forEach(button =>{
+        button.addEventListener("click", () =>{
+            const targetId = button.getAttribute("data-target")
+            const targetSection = document.querySelector(targetId)
+
+            if(targetSection){
+                targetSection.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start"
+                })
+            }
+        })
+    })
+})
