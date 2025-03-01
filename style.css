@@ -460,22 +460,27 @@ MEDIA QUERIES
         
     }
 
-    #group-buttons{
+    #group-buttons {
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 100px; 
-        right: 117px;
+        top: 70px; 
+        right: 25px;
         background-color: var(--secondary-color);
         padding: 10px;
-        border-radius: 5px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        transition: 0.3s ease;
-
+        opacity: 0; 
+        transition: 0.5s ease, opacity 0.5s ease;
+        
     }
+    
     #group-buttons.active {
         display: flex; 
-       
+        opacity: 1; 
+    }
+
+    
+    .section-btn:hover{
+        color: var(--main-color);
     }
 
     .about-wrapper{
@@ -498,7 +503,7 @@ MEDIA QUERIES
     .skills-wrapper h2{
         font-size: 2em;
     }
-
+    
     .skills-content li{
         font-size: 13px;
         padding: 4px 10px;
@@ -586,3 +591,30 @@ MEDIA QUERIES
     }
 }
 
+@media(max-width: 400px) {
+
+    .hamburger-menu {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    #group-buttons {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        right: 20px;
+        background-color: var(--secondary-color);
+        padding: 10px;
+        max-height: 0; 
+        overflow: hidden; 
+        opacity: 0; 
+        transition: max-height 0.5s ease, opacity 0.5s ease; 
+    }
+
+    #group-buttons.active {
+        display: flex; 
+        max-height: 500px; 
+        opacity: 1; 
+    }
+}
