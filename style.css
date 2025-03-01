@@ -222,9 +222,10 @@ PROJECTS SECTION
     text-align: center;
 }
 
-.project-card{
+.project-card:not(:first-child){
     display: flex;
     justify-content: center;
+    margin: 15em;
 }
 
 .project-wrapper{
@@ -301,7 +302,7 @@ PROJECTS SECTION
 }
 
 .list-itens-project{
-    width: 40%;
+    width: 50%;
     box-sizing: border-box;
     text-align: start;
 

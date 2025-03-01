@@ -1,0 +1,81 @@
+{
+    "projects": [
+      {
+        "id": "1",
+        "name": {
+          "pt": "CulturaHub",
+          "en": "CulturaHub"
+        },
+        "description": {
+          "pt": "Plataforma Web voltada para a divulgação de eventos culturais. Conta com operações CRUD para login e cadastro, eventos, gestão de cargos administrativos e usuários.",
+          "en": "A web platform focused on the promotion of cultural events. It includes CRUD operations for login, registration, events, and user management."
+        },
+        "image": "/assets/projects/CulturaHub/CulturaHubHome.png",
+        "links": {
+          "demo": "https://culturahub.netlify.app/",
+          "github": "https://github.com/2024-2-NADS2/Projeto2",
+          "documentation": "https://drive.google.com/drive/folders/184OtHY8Fg6XPJ_QaFFmNbsJOI4y3-4n1?usp=drive_link"
+        },
+        "technologies": [
+          "React",
+          "ViaCEP API",
+          "Express",
+          "Imgur API",
+          "Node.js",
+          "MySQL",
+          "Styled Components"
+        ]
+      },
+      {
+        "id": "2",
+        "name": {
+          "pt": "Portfólio: Lipeoe",
+          "en": "Portfolio: Lipeoe"
+        },
+        "description": {
+          "pt": "Portfólio pessoal feito com o intuíto de apresentar informações sobre minha expreriência, habilidades e projetos. Construido em HTML, CSS e Javascript, e consumindo de dados via JSON.",
+          "en": "Personal portfolio designed to showcase information about my experience, skills, and projects. Built using HTML, CSS, and JavaScript, with data being consumed via JSON."
+        },
+        "image": "assets/projects/Portfolio/PortfolioLipeoe.png",
+        "links": {
+          "demo": "https://lipeoe.vercel.app",
+          "github": "https://github.com/lipeoe/portfolio-lipeoe",
+          "documentation": "#"
+        },
+        "technologies": [
+          "HTML",
+          "CSS",
+          "Javascript",
+          "JSON"
+        ]
+      },
+
+      {
+        "id": "3",
+        "name": {
+          "pt": "Alimentador automático",
+          "en": "Automatic feeder"
+        },
+        "description": {
+          "pt": "Projeto de IoT para automação da liberação de ração para animais de estimação. O sistema conta com programação de horarios para liberação automatica ou de forma manual, por comandos.",
+          "en": "IoT project for automating the release of pet food. The system includes scheduled programming for automatic feeding or manual activation through commands."
+        },
+        "image": "assets/projects/Alimentador/AlimentadorAutomatico.png",
+        "links": {
+          "demo": "#",
+          "github": "https://github.com/2024-1-NADS1-A/Projeto7",
+          "documentation": "#"
+        },
+        "technologies": [
+          "C++",
+          "Motor DC 12v",
+          "ESP8266",
+          "Protoboard",
+          "Ponte H",
+          "Telegram API"
+        ]
+      }
+
+    ]
+  }
+  
