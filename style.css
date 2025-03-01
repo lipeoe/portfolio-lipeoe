@@ -59,6 +59,12 @@ nav{
     padding: 2rem 0 ;
 }
 
+.hamburger-menu{
+    color: var(--main-color);
+    font-size: 2em;
+    display: none;
+    cursor: pointer;
+}
 
 .logo-nav{
     max-width: var(--main-size);
@@ -66,7 +72,7 @@ nav{
 
 }
 
-.group-buttons{
+#group-buttons{
     display: flex;
     align-items: center;
     text-align: center;
@@ -222,10 +228,10 @@ PROJECTS SECTION
     text-align: center;
 }
 
-.project-card:not(:first-child){
+.project-card{
     display: flex;
     justify-content: center;
-    margin: 15em;
+    margin: 0 0 15em 0;
 }
 
 .project-wrapper{
@@ -412,3 +418,140 @@ footer{
     max-height: var(--main-size-media-icon);
 
 }
+
+/* 
+-------------------------------------------
+MEDIA QUERIES
+-------------------------------------------
+*/
+
+
+@media (max-width: 1200px) {
+    .social-links{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 1em;
+        align-items: center;
+        position: inherit;
+        text-decoration: none;
+    }  
+
+    .line-links{
+        display: none;
+    }
+}
+
+@media(max-width: 800px){
+    .hamburger-menu{
+        display: block;
+        
+    }
+
+    #group-buttons{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100px; 
+        right: 117px;
+        background-color: var(--secondary-color);
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: 0.3s ease;
+
+    }
+    #group-buttons.active {
+        display: flex; 
+       
+    }
+
+    .about-me-name{
+        font-size: 3em;
+    }
+
+    .about-me-stack{
+        font-size: 2em;
+    }
+
+    .skills-wrapper h2{
+        font-size: 2em;
+    }
+
+    .skills-content li{
+        font-size: 13px;
+        padding: 4px 10px;
+
+    }
+
+    .skills-icons{
+        width: 15px;
+    }
+
+    .title-section{
+        font-size: 2em;
+    }
+
+    .project-card {
+        margin: 0 0 10em 0; 
+    }
+
+    .project-wrapper {
+        flex-direction: column; 
+        width: 70%; 
+        height: auto; 
+        text-align: center; 
+        align-items: center; 
+    }
+
+    .img-project {
+        width: 100%; 
+        max-height: 200px; 
+        border-radius: 10px 10px 0 0;
+    }
+
+    .project-details {
+        position: static; 
+        max-width: 100%; 
+        border-radius: 0 0 10px 10px;
+        background-color: var(--secondary-color);
+        
+        padding: 12px;
+        text-align: center;
+    }
+
+    .project-title {
+        font-size: 18px; 
+    }
+
+    .project-description {
+        font-size: 12px; 
+        margin-bottom: 15px;
+    }
+
+    .project-link-wrapper {
+        gap: 0.5rem; 
+    }
+
+    .project-link-img {
+        max-width: 20px; 
+    }
+
+    .project-data {
+        position: static; 
+        
+        margin-top: 20px; 
+        list-style-type: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+
+    .list-itens-project {
+        width: 30%; 
+        text-align: center; 
+        margin-bottom: 10px; 
+    }
+    
+}
+

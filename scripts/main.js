@@ -27,3 +27,18 @@ document.addEventListener("DOMContentLoaded", () => {
         document.querySelector("header").classList.add("fixed")
     }
 })
+
+document.addEventListener("DOMContentLoaded", () => {
+    const hamburgerMenu = document.getElementById("hamburger-menu")
+    const groupButtons = document.getElementById("group-buttons")
+
+    hamburgerMenu.addEventListener("click", () => {
+        groupButtons.classList.toggle("active")
+    })
+
+    groupButtons.querySelectorAll(".section-btn, .resume-btn, #language-toggle").forEach(item => {
+        item.addEventListener("click", () => {
+            groupButtons.classList.remove("active")
+        })
+    })
+})
