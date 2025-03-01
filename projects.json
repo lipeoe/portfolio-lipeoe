@@ -33,8 +33,8 @@
           "en": "Portfolio: Lipeoe"
         },
         "description": {
-          "pt": "Portfólio pessoal feito com o intuíto de apresentar informações sobre minha expreriência, habilidades e projetos. Construido em HTML, CSS e Javascript, e consumindo de dados via JSON.",
-          "en": "Personal portfolio designed to showcase information about my experience, skills, and projects. Built using HTML, CSS, and JavaScript, with data being consumed via JSON."
+          "pt": "Portfólio pessoal feito com o intuíto de apresentar informações sobre minha experiência, habilidades e projetos. Construido em HTML, CSS, Javascript e utilizando JSON para consumir informações sobre os projetos.",
+          "en": "Personal portfolio designed to present information about my experience, skills, and projects. Built using HTML, CSS, and JavaScript, and utilizing JSON to fetch project details."
         },
         "image": "assets/projects/Portfolio/PortfolioLipeoe.png",
         "links": {
@@ -57,7 +57,7 @@
           "en": "Automatic feeder"
         },
         "description": {
-          "pt": "Projeto de IoT para automação da liberação de ração para animais de estimação. O sistema conta com programação de horarios para liberação automatica ou de forma manual, por comandos.",
+          "pt": "Projeto de IoT para automação da liberação de ração para animais de estimação. O sistema conta com programação de horarios para liberação automatica ou de forma manual, através de comandos.",
           "en": "IoT project for automating the release of pet food. The system includes scheduled programming for automatic feeding or manual activation through commands."
         },
         "image": "assets/projects/Alimentador/AlimentadorAutomatico.png",
