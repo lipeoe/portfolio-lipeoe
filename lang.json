@@ -1,0 +1,33 @@
+{
+    "pt":{
+        "nav-btn":["01. Sobre", "02. Projetos", "03. Contato", "CURRÍCULO", "PT"],
+
+        "about-me-role":"Desenvolvedor Full Stack.",
+
+        "about-me-description": "Atualmente estou cursando Análise e Desenvolvimento de Sistemas e criando alguns pequenos projetos para aprimorar minhas habilidades!",
+
+        "skills": "Habilidades",
+
+        "contact-title": "Vamos conversar?",
+
+        "contact-description": "Estou aberto para novas oportunidades! Caso tenha interesse, entre e contato comigo. Retornarei o mais breve possível!",
+
+        "contact-btn": "Deixe uma mensagem!"
+    },
+
+    "en":{
+        "nav-btn":["01. About", "02. Projects", "03. Contact", "RESUME", "EN"],
+
+        "about-me-role": "Full Stack Developer.",
+
+        "about-me-description": "At the moment, i am studying Systems Development and building some small projects to improve my programming skills.",
+
+        "skills": "Skills",
+
+        "contact-title": "Get In Touch",
+
+        "contact-description": "I'm currently looking for new opportunities! If you're interested, feel free to get in touch with me. I'll respond as soon as possible!",
+
+        "contact-btn": "Say Hello!"
+    }
+}

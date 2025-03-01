@@ -30,6 +30,28 @@ HEADER
 -------------------------------------------
 */
 
+header{
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: var(--bg-color);
+    transition: transform 0.3s ease-in-out;
+}
+
+.hidden {
+    transform: translateY(-100%);
+}
+
+
+.fixed {
+    position: fixed; /* Fixa o header no topo quando rolar */
+    top: 0;
+    left: 0;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -51,7 +73,7 @@ nav{
     gap: 1rem;
 }
 
-.language {
+#language-toggle {
     background-color: transparent;
     border: none;
     padding: 4px 7px 4px 7px;
