@@ -1,6 +1,6 @@
 {
     "pt":{
-        "nav-btn":["01. Sobre", "02. Projetos", "03. Contato", "CURRÍCULO", "PT"],
+        "nav-btn":["Sobre", "Projetos", "Contato", "CURRÍCULO", "PT"],
 
         "about-me-role":"Desenvolvedor Full Stack.",
 
@@ -18,7 +18,7 @@
     },
 
     "en":{
-        "nav-btn":["01. About", "02. Projects", "03. Contact", "RESUME", "EN"],
+        "nav-btn":["About", "Projects", "Contact", "RESUME", "EN"],
 
         "about-me-role": "Full Stack Developer.",
 

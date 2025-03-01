@@ -57,8 +57,8 @@
           "en": "Automatic feeder"
         },
         "description": {
-          "pt": "Projeto de IoT para automação da liberação de ração para animais de estimação. O sistema conta com programação de horarios para liberação automatica ou de forma manual, através de comandos.",
-          "en": "IoT project for automating the release of pet food. The system includes scheduled programming for automatic feeding or manual activation through commands."
+          "pt": "Projeto de IoT desenvolvido para automatizar a liberação de ração para animais de estimação. O sistema permite a programação de horários para alimentação automática e também oferece a opção de controle manual por meio de comandos",
+          "en": "IoT project designed to automate the release of pet food. The system features scheduled programming for automatic feeding and also allows manual control through commands."
         },
         "image": "assets/projects/Alimentador/AlimentadorAutomatico.png",
         "links": {
