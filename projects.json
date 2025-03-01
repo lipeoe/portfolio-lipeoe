@@ -33,7 +33,7 @@
           "en": "Portfolio: Lipeoe"
         },
         "description": {
-          "pt": "Portfólio pessoal feito com o intuíto de apresentar informações sobre minha experiência, habilidades e projetos. Construido em HTML, CSS, Javascript e utilizando JSON para consumir informações sobre os projetos.",
+          "pt": "Portfólio pessoal feito para apresentar minha experiência, habilidades e projetos. Desenvolvido com HTML, CSS e JavaScript, ele utiliza JSON para integrar dinamicamente as informações dos projetos apresentados.",
           "en": "Personal portfolio designed to present information about my experience, skills, and projects. Built using HTML, CSS, and JavaScript, and utilizing JSON to fetch project details."
         },
         "image": "assets/projects/Portfolio/PortfolioLipeoe.png",
