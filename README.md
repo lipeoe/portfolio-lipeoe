@@ -18,7 +18,7 @@ Tecnologias utilizadas:
 - Javascript
 
 
-## 🎨 Cores
+## 🎨 Paleta de cores
 
 | Color          | Hex                                                                |
 | -------------- | ------------------------------------------------------------------ |
