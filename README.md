@@ -4,6 +4,20 @@
 
 <h1 align="center">lipeoe.vercel.app</h1>
 
+<div align="center">
+  <img src="https://i.imgur.com/nAKaI1D.png" width="800px"/>
+  <h2>Design responsivo e suporte a tradução para o inglês.</h2>
+  <img src="https://i.imgur.com/HXu18cG.png" width="543px"/>
+  <img src="https://i.imgur.com/ZeB6PEH.png" width="300px"/>
+</div>
+
+## 💻 Sobre o projeto
+Tecnologias utilizadas:
+- HTML
+- CSS
+- Javascript
+
+
 ## 🎨 Cores
 
 | Color          | Hex                                                                |
