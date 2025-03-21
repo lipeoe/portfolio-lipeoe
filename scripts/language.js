@@ -77,8 +77,8 @@ document.addEventListener("DOMContentLoaded", () => {
         if (!resumeBtn) return
 
         const resumePaths = {
-            pt: "/assets/documents/FelipeOjo_cv.docx.pdf",
-            en: "/assets/documents/FelipeOjo_resume.docx.pdf"
+            pt: "/assets/documents/FelipeOjo_cv.pdf",
+            en: "/assets/documents/FelipeOjo_resume.pdf"
         }
 
         resumeBtn.setAttribute("href", resumePaths[currentLang])

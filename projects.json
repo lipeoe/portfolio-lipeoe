@@ -53,6 +53,30 @@
       {
         "id": "3",
         "name": {
+          "pt": "Teste de Desenvolvimento Web em React",
+          "en": "Web Development Test in React"
+        },
+        "description": {
+          "pt": "O projeto inclui uma vitrine interativa e um modal para exibição detalhada dos itens, e integração de uma API externa para acessar os dados dos produtos da loja.",
+          "en": "The project features an interactive showcase, a modal for detailed item display, and integrations with an external API to fetch the store's product data."
+        },
+        "image": "assets/projects/TesteFrontEnd/TesteFrontEnd.png",
+        "links": {
+          "demo": "https://teste-front-end-rose.vercel.app",
+          "github": "https://github.com/lipeoe/teste-front-end?tab=readme-ov-file",
+          "documentation": "#"
+        },
+        "technologies": [
+          "React",
+          "TypeScript",
+          "Node",
+          "Scss"
+        ]
+      },
+
+      {
+        "id": "4",
+        "name": {
           "pt": "Alimentador automático",
           "en": "Automatic feeder"
         },
